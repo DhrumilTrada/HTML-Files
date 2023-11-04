@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>
+        User Details and Review
+    </title>
+</head>
+
+<body bgcolor = >
+    <form action="new.html" method=get>
+        <fieldset>
+        <legend align=center>
+            --> Outline <-- </legend>
+                <label for="Name">1. First Name: </label><br>
+                <input type="text" id="Name" placeholder="Enter First name"><br><br>
+                <label for="LName">2. Last Name: </label><br>
+                <input type="text" id="LName" placeholder="Enter First name"><br><br>
+                <label for="sub">3. Subject: </label>
+                <label><input type="radio" name="Subject" id="sub">Historical</label>
+                <label><input type="radio" name="Subject" id="sub">Psychological</label>
+                <label><input type="radio" name="Subject" id="sub">Mystery</label>
+                <label><input type="radio" name="Subject" id="sub">Fantasy <br><br></label>
+                <label for="gender">4. Gender:</label>
+                <label><input type="radio" name="Gender" id="gender">Male</label>
+                <label><input type="radio" name="Gender" id="gender">Female</label>
+                <label><input type="radio" name="Gender" id="gender">Prefer not to answer</label><br><br></label>
+                <label for="DOB">5. Date Of Birth: </label>
+                <input type="date" id="DOB"><br><br>
+                <label for="author">6. Fav Author </label><br>
+                <select name="Author" id="author">
+                    <option value=" " disabled selected hidden></option>
+                    <optgroup label="Novel">
+                        <option value="Novel">R.K. NARAYAN</option>
+                        <option value="Novel">MULK RAJ ANAND</option>
+                        <option value="Novel">KHUSHWANT SINGH</option>
+                        <option value="Novel">RUSKIN BOND</option>
+                    </optgroup>
+                    <optgroup label="Comics">
+                        <option value="Comics">Geoff Johns</option>
+                        <option value="Comics">Frank Miller</option>
+                        <option value="Comics">Stan Lee</option>
+                        <option value="Comics">Mark Waid</option>
+                    </optgroup>
+                    <optgroup label="Story Book">
+                        <option value="Story Book">Samanta Schweblin</option>
+                        <option value="Story Book">Lauren Groff</option>
+                        <option value="Story Book">Grace Linn</option>
+                        <option value="Story Book">John Freeman</option>
+                    </optgroup>
+                    </select><br><br>
+                    <label for="review">7 Review:</label>
+                    <input type="range" min = 0 max = 10 value="3"><br><br>
+                    <input type="submit" value="Submit"> &nbsp;
+                    <input type="reset" value="Reset">
+                </select>
+                </legend>
+    </form>
+</body>
+
+</html>
